@@ -9,16 +9,16 @@ https://editor.p5js.org/pintofelipe2021/full/lOEfa28pA-
 Once again I count on everyone's help with suggestions on how to improve it. Thank you all!
 
 
-let casa
-let pikachu
-let charmander
-let pokebola
-let logoPokemon
-let pedra
-let dawn
-let ganhou
-let personagem
-let grama
+let casa = null
+let pikachu = null
+let charmander = null
+let pokebola = null
+let logoPokemon = null
+let pedra = null
+let dawn = null
+let ganhou = null
+let personagem = null
+let grama = null
 const tamanho = 64
 let tela = 576
 let andarX = 0
