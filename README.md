@@ -9,7 +9,7 @@ https://editor.p5js.org/pintofelipe2021/full/lOEfa28pA-
 Once again I count on everyone's help with suggestions on how to improve it. Thank you all!
 
 
-let casa = null;
+let casa = 0;
 let pikachu = null;
 let charmander = null;
 let pokebola = null;
