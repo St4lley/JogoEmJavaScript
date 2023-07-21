@@ -25,7 +25,6 @@ let andarX = 0
 let andarY = 64
 let velocidade = 64
 
-// é chamada apenas uma vz ao executar o programa
 function setup() {
     createCanvas(tela, tela);
     personagem = loadImage('4ad86a29264195831d7e2433b7333af3.png')
@@ -40,7 +39,6 @@ function setup() {
     casa = loadImage('casa.png')
 }
 
-// fica executando até o programa seja encerrado
 function draw() {
     background(200);
 
@@ -102,7 +100,6 @@ function draw() {
 
 }
 
-// é chamada uma vez toda vez que a tecla é pressionada
 function keyPressed() {
 
     if (keyIsDown(DOWN_ARROW)) {
