@@ -68,6 +68,16 @@ function draw() {
             restart.mousePressed(reset)
             noLoop()
         }
+        if (andarX === 320 && andarY === 448) {
+
+
+            image(FOI-CAPTURADO , 140, 200, 300, 200)
+
+            restart = createButton('Reiniciar')
+            restart.mousePressed(reset)
+            noLoop()
+        }
+        
         function reset() {
             andarX = 0
             andarY = 64
